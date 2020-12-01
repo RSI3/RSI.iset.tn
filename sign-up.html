@@ -1,0 +1,31 @@
+<!Doctype html>
+<html>
+<head>
+     <meta charset="UTF-8">
+     <title>Signup</title>
+     <link rel="icon" type="image/png" href="logo.png" />
+     <link rel="stylesheet" href="css.css">
+   
+</head>
+<body>
+    <div class="wrapsign">
+    <h2>Sign Up</h2>
+    <form method="post" action="w.php">
+    <label for="username"><b>Name</b></label>
+    <input type="text" name="username" required="required">
+     <label for="lastName"><b>Last Name<b></label>
+    <input type="text" name="lastName" required="required">
+    <label for="email"><b>Email</b></label>
+    <input type="text"  name="email" id="email" required>
+    <label for="CIN"><b>CIN</b></label>
+    <input type="number"  name="CIN" id="CIN" required>
+      <label for="password"><b>Password</b></label>
+    <input type="password" name="password" required="required">
+     <label for="phone"><b>Phone number</b></label>
+      <input type="number"  name="phone" id="phone" >
+      <button type="submit" class="signupbtn">Sign Up</button>
+      <button type="button" class="cancelbtn" onclick="window.location.href='login.html'">Cancel</button>
+    </form>
+    </div>
+</body>		
+</html>
